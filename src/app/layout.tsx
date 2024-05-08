@@ -26,7 +26,9 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
       </head>
-      <body className={`font-poppins text-white bg-back pt-[62px]`}>
+      <body
+        className={`font-poppins text-white bg-back pt-[62px] max-w-screen-lg mx-auto`}
+      >
         <Header />
         {children}
         <Footer />
