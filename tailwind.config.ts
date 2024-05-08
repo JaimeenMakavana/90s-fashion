@@ -1,4 +1,3 @@
-import { playfair } from "@/app/layout";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -14,8 +13,8 @@ const config: Config = {
         playfair: "40px",
       },
       fontFamily: {
-        poppins: ["var(--font-poppins)"],
-        playfair: ["var(--font-playfair)"],
+        poppins: ["Poppins", "serif"],
+        playfair: ["Playfair Display", "serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
