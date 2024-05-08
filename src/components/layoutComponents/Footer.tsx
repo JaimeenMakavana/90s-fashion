@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div>
         <h1 className="text-[20px] font-bold">Location</h1>
-        <p className=" text-light">767 5th street, 21st Floor, New York,USA</p>
+        <p className=" text-light">Surat, Gujarat - 395010</p>
       </div>
       <div>
         <h1 className="text-[20px] font-bold">Links</h1>

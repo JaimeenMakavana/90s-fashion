@@ -27,7 +27,7 @@ export default function RootLayout({
         ></link>
       </head>
       <body
-        className={`font-poppins text-white bg-back pt-[62px] max-w-screen-lg mx-auto`}
+        className={`font-poppins text-white bg-back pt-[62px] max-w-screen-2xl mx-auto`}
       >
         <Header />
         {children}

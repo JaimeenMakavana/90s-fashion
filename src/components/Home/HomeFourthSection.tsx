@@ -52,7 +52,7 @@ const HomeFourthSection = () => {
               placeholder="Enter your email address"
               className=" w-full border-b px-3 py-2 border-white bg-transparent focus:outline-none"
             />
-            <MoveRight />
+            <MoveRight className="transition-all animate-ping duration-500" />
           </div>
         </div>
       </div>
