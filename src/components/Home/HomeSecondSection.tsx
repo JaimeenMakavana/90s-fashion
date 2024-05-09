@@ -15,10 +15,10 @@ const HomeSecondSection = () => {
   return (
     <section className=" py-10 border-b-[2px] border-white md:mx-28">
       <div className="h-[2px] bg-white relative">
-        <div className="flex justify-center gap-6 bg-back px-2 items-center absolute -top-3 left-[16%] md:left-[35%]">
-          <p>&#x2022; facebook</p>
-          <p>&#x2022; instagram</p>
-          <p>&#x2022; twitter</p>
+        <div className="flex justify-center gap-2 bg-back px-2 items-center absolute -top-3 left-[3%] md:left-[35%] md:gap-10">
+          <p>&#x2022;facebook</p>
+          <p>&#x2022;instagram</p>
+          <p>&#x2022;twitter</p>
         </div>
       </div>
       <div className=" grid py-10 gap-y-5 md:grid-cols-2">
