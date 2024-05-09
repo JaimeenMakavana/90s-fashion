@@ -28,7 +28,7 @@ const HomeThirdSection = () => {
             literally wear out before we retire them. We are here for you to
             bring &apos;90s fashion vibes again.
           </p>
-          <button className="w-fit mt-5 bg-white text-back py-3 px-4 cursor-pointer font-semibold ">
+          <button className="w-fit mt-5 bg-white text-back py-3 px-4 cursor-pointer font-semibold hover:bg-[#F6F4EB]">
             About Us
           </button>
         </div>

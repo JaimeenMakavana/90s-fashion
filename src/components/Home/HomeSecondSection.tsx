@@ -14,14 +14,19 @@ const NewInCardData = [
 const HomeSecondSection = () => {
   return (
     <section className=" py-10 border-b-[2px] border-white md:mx-28">
-      <div className="h-[2px] bg-white relative">
+      <div className="flex justify-between gap-2 bg-back px-2 items-center    md:gap-10 md:hidden">
+        <p>&#x2022;facebook</p>
+        <p>&#x2022;instagram</p>
+        <p>&#x2022;twitter</p>
+      </div>
+      <div className="h-[2px] bg-white relative hidden md:block">
         <div className="flex justify-center gap-2 bg-back px-2 items-center absolute -top-3 left-[3%] md:left-[35%] md:gap-10">
           <p>&#x2022;facebook</p>
           <p>&#x2022;instagram</p>
           <p>&#x2022;twitter</p>
         </div>
       </div>
-      <div className=" grid py-10 gap-y-5 md:grid-cols-2">
+      <div className=" grid py-10 gap-y-5 gap-x-5 md:grid-cols-2">
         <div>
           <h1 className=" font-playfair text-playfair">New In</h1>
           <p className=" text-light font-semibold">

@@ -10,7 +10,7 @@ const HomeFirstSection = () => {
         <p className=" font-playfair text-playfair font-semibold max-w-[75%] md:w-full">
           Fashion is the armor to survive the reality of everyday life.
         </p>
-        <button className="w-fit mt-5 bg-white max-h-[50px] text-back py-3 px-4 cursor-pointer font-semibold ">
+        <button className="w-fit mt-5 bg-white max-h-[50px] text-back py-3 px-4 cursor-pointer font-semibold hover:bg-[#F6F4EB]">
           Shop Now
         </button>
       </div>
